@@ -1,0 +1,127 @@
+.mainContainer{
+   max-width: 1024px;
+   margin: 0 auto;
+    
+}
+@media (max-width:767px){
+    .menuContainer{
+        display: none;
+    }
+        
+    
+    .mobileContainer{
+        display: block;
+    }
+}
+
+
+   
+
+.menuItem{
+    text-decoration: none;
+    color: inherit;
+    margin-left: 10px;
+}
+.menuItem:hover{
+    border-bottom-style: solid;
+}
+.mobileContainer{
+    display: none;
+  
+}
+
+
+    
+
+.footer{
+   text-align: center;
+   font-size: 30px;
+   padding: 50px;
+   margin-top: 30px;
+   border-style: solid;
+   
+
+
+}
+.logo{
+    width: 100%;
+    
+}
+.logoContainer{
+    width: 50px;
+    height: 50px;
+}
+.left{
+    display: inline-block;
+    width: 50%;
+   
+}
+.Right{
+    display: inline-block;
+    width: 50%;
+   
+}
+.image{
+    width: 600px;
+    height: 450px;
+}
+
+.pass{
+    font-size: 12.5px;
+}
+.text{
+    font-size: 12.5px;
+}
+.sign{
+   display: block ;
+   margin-top: 10px;
+   margin-bottom: 5px;
+   background-color: #0084ff;
+   border-radius: 24px;
+   border: none;
+   color: white;
+   padding: 2px 20px 0px;
+   font-size: 19px;
+   height: 40px;
+   
+}
+.description{
+    margin-bottom: 20px;
+    font-family: default;
+}
+.block{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: lightgray;
+    display: block;
+    height: 35px;
+    width: 300px;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px
+
+}
+.keep{
+    margin-bottom: 10px;
+}
+.for{
+    margin-bottom: 10px;
+}
+.inner{
+    width: 70%;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container{
+   display: flex ;
+    flex-wrap: wrap;
+}
+.titleHeader{
+    margin-bottom: 20px ;
+}
